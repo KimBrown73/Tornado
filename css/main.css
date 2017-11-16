@@ -42,6 +42,21 @@ aside {
     width: 100%;
 }
 
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: seagreen;
+    justify-content: center;
+    -webkit-justify-content: center;
+
+}
+
+.flex-item {
+    background-color: hotpink;
+    margin: 1em;
+}
+
 h1, h2, h3 {
     color: crimson;
 }
